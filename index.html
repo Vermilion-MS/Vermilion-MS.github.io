@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maxs Computer, Individuelle PC-Zusammenstellung & Reparatur</title>
+  <meta name="description" content="Individuelle PC-Zusammenstellung, Reparatur & Diagnose, Datenwiederherstellung und Hausbesuche.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="#" class="logo">
+        <span class="logo-icon">
+  <img src="Firmenlogo.png" alt="Firmenlogo" />
+  </span>
+        Maxs Computer
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Menü öffnen">☰</button>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#services">Leistungen</a>
+        <a href="#prozess">Ablauf</a>
+        <a href="#kontakt">Kontakt</a>
+        <a href="#kontakt" class="btn btn-primary btn-sm nav-cta">Beratung anfragen</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <div>
+        <span class="badge">Individuell, Optimales Preis-Leistungs-Verhältnis, Über 10 Jahre Erfahrung</span>
+        <h1>Dein PC, <span class="text-gradient">exakt auf dich</span> abgestimmt.</h1>
+        <p class="lead">
+          Egal ob Gaming, Arbeit, 3D-Rendering oder Multimedia, ich stelle dir
+          einen PC zusammen, der zu <strong>deinen Bedürfnissen</strong> passt.
+          Ohne Overkill, ohne Kompromisse.
+        </p>
+        <div class="hero-actions">
+          <a href="#kontakt" class="btn btn-primary">Jetzt beraten lassen</a>
+          <a href="#services" class="btn btn-ghost">Alle Leistungen →</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+  <img src="Firmenlogo.png" alt="Maxs Computer Logo">
+</div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="services">
+    <div class="container">
+      <div class="section-head">
+        <span class="kicker">Was ich anbiete</span>
+        <h2>Alles rund um deinen PC</h2>
+        <p class="lead">Vom individuellen Aufbau bis zur Datenrettung helfe ich dir, wenn dein System nicht mehr so läuft, wie es soll.</p>
+      </div>
+
+      <div class="grid-cards">
+
+        <article class="service-card">
+          <span class="badge"> Montage</span>
+          <h3>Individuelle PC-Zusammenstellung</h3>
+          <p class="text-dim">
+            Du sagst mir, wofür du den PC brauchst ich suche die optimalen
+            Komponenten aus, bestelle, baue auf und teste alles. Du bekommst
+            ein System, das genau zu dir passt.
+          </p>
+        </article>
+
+        <article class="service-card">
+          <span class="badge"> Reparatur</span>
+          <h3>Reparatur & Fehlerdiagnose</h3>
+          <p class="text-dim">
+            PC startet nicht, wird langsam, zeigt Fehlerbilder? Ich finde den
+            kaputten Teil vom defekten RAM-Riegel bis zur abgebrannten GPU und ersetze ihn dir.
+          </p>
+        </article>
+
+        <article class="service-card">
+          <span class="badge"> Datenrettung</span>
+          <h3>Datenwiederherstellung</h3>
+          <p class="text-dim">
+            Festplatte, SSD, USB-Stick oder SD-Karte: Wenn Daten verloren gehen, 
+            versuche ich sie so schnell und sicher wie möglich zurückzuholen.
+          </p>
+        </article>
+
+        <article class="service-card">
+          <span class="badge"> Hausbesuch</span>
+          <h3>Hausbesuch auf Wunsch</h3>
+          <p class="text-dim">
+            Keine Lust, deinen PC abzugeben? Ich komme gerne zu dir für eine Beratung, 
+            Reparatur oder baue den PC direkt bei dir zu Hause in Berlin und Brandenburg auf.
+          </p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="prozess">
+    <div class="container">
+      <div class="section-head">
+        <span class="kicker">So läuft's ab</span>
+        <h2>3 Schritte zu deinem neuen PC</h2>
+      </div>
+
+      <div class="grid-cards">
+        <article class="service-card">
+          <h3>1. Beratung</h3>
+          <p class="text-dim">
+            Wir besprechen deine Wünsche, deinen Budgetrahmen und den Einsatzzweck.
+            Per Telefon, E-Mail oder Hausbesuch.
+          </p>
+        </article>
+        <article class="service-card">
+          <h3>2. Zusammenstellung</h3>
+          <p class="text-dim">
+            Ich stelle die Komponenten zusammen, baue den PC auf und führe mehrere
+            Funktionstests durch.
+          </p>
+        </article>
+        <article class="service-card">
+          <h3>3. Übergabe</h3>
+          <p class="text-dim">
+            Du bekommst deinen fertigen PC abholbereit oder direkt zu dir nach Hause. 
+            Mit kurzer Einweisung und Supportgarantie.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+<section class="section section-alt" id="kontakt">
+  <div class="container">
+    <div class="section-head">
+      <span class="kicker">Kontakt</span>
+      <h2>Lass uns über deinen PC reden</h2>
+      <p class="lead">Schreib mir kurz, was du brauchst. Ich melde mich innerhalb von 24 Stunden zurück.</p>
+    </div>
+
+    <div class="contact-grid">
+      <form class="service-card" style="max-width: 560px; width: 100%;" onsubmit="event.preventDefault(); alert('Danke! Ich melde mich bei dir.');">
+        <label for="name" class="text-dim">Name</label>
+        <input id="name" type="text" required
+               style="width:100%;padding:.7rem 1rem;margin:.3rem 0 1rem;background:var(--bg);border:1px solid var(--border);border-radius:var(--radius-sm);color:var(--text);font-family:inherit;">
+
+        <label for="email" class="text-dim">E-Mail</label>
+        <input id="email" type="email" required
+               style="width:100%;padding:.7rem 1rem;margin:.3rem 0 1rem;background:var(--bg);border:1px solid var(--border);border-radius:var(--radius-sm);color:var(--text);font-family:inherit;">
+
+        <label for="msg" class="text-dim">Wie kann ich helfen?</label>
+        <textarea id="msg" rows="8" required
+               style="width:100%;padding:.7rem 1rem;margin:.3rem 0 1rem;background:var(--bg);border:1px solid var(--border);border-radius:var(--radius-sm);color:var(--text);font-family:inherit;resize:vertical;"></textarea>
+
+        <button type="submit" class="btn btn-primary" style="width:100%;">Nachricht senden</button>
+      </form>
+
+      <aside class="service-card contact-aside contact-info" aria-label="Telefonnummer und Öffnungszeiten">
+        <span class="badge">Direkter Kontakt</span>
+
+        <h3>Telefon</h3>
+        <a class="contact-tel" href="tel:+4917649711212">0176 49711212</a>
+        <p class="text-dim">Am einfachsten erreichst du mich per Anruf.</p>
+
+        <h3 style="margin-top: 1.25rem;">Öffnungszeiten</h3>
+        <ul class="contact-schedule">
+          <li>
+            <span>Mo – Fr</span>
+            <span>09:00 – 18:00 Uhr</span>
+          </li>
+          <li>
+            <span>Sa</span>
+            <span>09:00 – 18:00 Uhr</span>
+          </li>
+          <li>
+            <span>So</span>
+            <span>geschlossen</span>
+          </li>
+        </ul>
+
+        <p class="text-dim" style="margin-top: 1rem; font-size: 0.9rem;">
+          Hausbesuche in Berlin & Brandenburg nach Vereinbarung.
+        </p>
+      </aside>
+    </div>
+  </div>
+</section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 Maxs Computer</p>
+      <nav class="footer-nav" aria-label="Rechtliches">
+        <a class="footer-link" href="impressum.html">Impressum</a>
+        <a class="footer-link" href="datenschutzerklärung.html">Datenschutzerklärung</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.getElementById('navToggle');
+    const links  = document.getElementById('navLinks');
+
+    toggle.addEventListener('click', () => {
+      const open = links.style.display === 'flex';
+      links.style.display = open ? 'none' : 'flex';
+      links.style.flexDirection = 'column';
+      links.style.position = 'absolute';
+      links.style.top = 'var(--header-h)';
+      links.style.left = '0';
+      links.style.right = '0';
+      links.style.background = 'var(--surface)';
+      links.style.padding = '1rem';
+      links.style.borderBottom = '1px solid var(--border)';
+    });
+  </script>
+</body>
+</html>
